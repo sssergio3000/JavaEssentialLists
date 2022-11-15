@@ -12,13 +12,16 @@ public class Main {
         }
         System.out.println("_____________");
         ListIterator<Integer> intListIterator = intList.listIterator();
-        while(intListIterator.hasNext()){
+        while (intListIterator.hasNext()) {
+            Integer int1 = intListIterator.next() + 1;
+            intListIterator.set(int1);
+        }//while
 
-            System.out.println(intListIterator.next()+1);
+        for (Integer intOut: intList ) {
+            System.out.println(intOut);
+
         }
 
-    }
 
-
-
-}
+    }//main
+}//class Main
