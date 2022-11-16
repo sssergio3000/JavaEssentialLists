@@ -10,5 +10,7 @@ public class Main {
         for (Object anim: animal) {
             System.out.println(anim);
         }
-    }
-}
+
+
+    }//main
+}//Main

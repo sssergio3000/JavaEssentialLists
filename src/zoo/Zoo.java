@@ -3,6 +3,8 @@ package zoo;
 import java.util.ArrayList;
 
 public class Zoo {
+
+
     public static ArrayList animal() {
         ArrayList<String> animals = new ArrayList<>();
         animals.add(0, "Cat");
